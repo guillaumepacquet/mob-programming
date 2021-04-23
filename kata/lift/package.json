@@ -1,0 +1,13 @@
+{
+    "name": "lift-kata",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "run": "docker-compose run app",
+        "test": "docker-compose run app yarn test"
+    },
+    "devDependencies": {
+        "jest": "^26.6.3"
+    }
+}

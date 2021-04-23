@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  app:
+    image: node:15
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: node index.js
