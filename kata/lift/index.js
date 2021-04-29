@@ -1,1 +1,1 @@
-console.log('my script');
+console.log('lift kata');
